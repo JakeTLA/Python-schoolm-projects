@@ -18,6 +18,10 @@ while True:
                 break
             elif inputvar == "n":
                 sys.exit()
+        else:
+            print("Invalid answer to input")
+            X -= 1
+            continue
         continue
     elif X >= Y:
         print("X now equal to Y")
